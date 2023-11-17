@@ -160,10 +160,19 @@ main img {
 }
 
 /* sobre mim */
-.sobre {
+#sobre {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 10%;
+    width: 80%;
+}
+
+#sobre img {
+    width: 17%;
+    min-width: 200px;
 }
 
 .sobre-mim {
@@ -171,7 +180,7 @@ main img {
     font-size: 20px;
     background-color: #5D12D2;
     color: #f5f5f5;
-    width: 50%;
+    width: 57%;
     border-radius: 14px;
     padding: 20px;
 }
@@ -184,4 +193,109 @@ main img {
 
 .sobre-mim p {
     font-size: 14px;
+}
+
+/* serviços */
+
+#servicos h2 {
+    color: pink;
+    font-family: var(--krona-font);
+    font-size: 40px;
+    margin-left: 4em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.presencial,
+.online,
+.grupo,
+.individual {
+    background-color: #5D12D2;
+    margin: 1em;
+    border-radius: 12px;
+    height: 180px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.direita {
+    margin-left: 1000px;
+}
+
+.esquerda {
+    margin-left: 200px;
+}
+
+.servicos-titulo {
+    color: pink;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.servicos-texto {
+    color: #f5f5f5;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Preços e pacotes */
+
+#precos-pacotes {
+    text-align: center;
+}
+
+#precos-pacotes h2 {
+    color: pink; 
+    font-family: var(--krona-font);
+    font-size: 40px;
+    margin-top: 2em;
+}
+
+/* footer */
+
+.footer {
+    background-image: url(img/footer.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px 30px 0px;
+    min-height: 70vh;
+}
+
+.logo-footer {
+    display: flex;
+    color: var(--branco);
+    font-family: var(--lobster-font);
+    margin-top: 10px;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.logo-footer h1 { 
+    margin-left: 10px;   
+}
+
+.logo-footer i {
+    margin-top: 20px;
+}
+
+.footer-conteudo p {
+    text-align: center;
+    font-family: var(--inter-font);
+    color: var(--branco);
+    font-size: 24px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.sociais {
+    display: flex;
+    justify-content: center;
+}
+
+.sociais i {
+    color: var(--branco);
+    padding: 10px;
+    font-size: 25px;
 }
