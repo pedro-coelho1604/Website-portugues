@@ -252,6 +252,73 @@ main img {
     margin-top: 2em;
 }
 
+/* contato */
+
+#contato {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-card {
+    background-color: #5D12D2;
+    width: 65%;
+    height: 80vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+    border-radius: 12px;
+}
+
+.contato-titulo {
+    color: pink; 
+    font-family: var(--lobster-font);
+    font-size: 60px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input label {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: pink;
+    font-family: var(--inter-font);
+}
+
+.input input {
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+}
+
+.botao-contato {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.botao-contato button {
+    height: 80px;
+    width: 300px;
+    background-color: pink;
+    border-radius: 30px;
+    border: transparent;
+}
+
+.botao-contato button a {
+    font-family: var(--krona-font);
+    font-size: 30px;
+    color: var(--branco);
+}
+
 /* footer */
 
 .footer {
