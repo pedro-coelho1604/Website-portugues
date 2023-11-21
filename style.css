@@ -280,8 +280,8 @@ main img {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
+    gap: 50px;
+    justify-content: center ;
 }
 
 .card-pacote {
