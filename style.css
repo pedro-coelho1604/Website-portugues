@@ -76,6 +76,10 @@ header li a:hover {
     text-shadow: 0 0 4px white;
 }
 
+.menu-hamb {
+    display: none;
+}
+
 /* dark mode button*/
 
 /* body.dark {
@@ -460,6 +464,26 @@ main img {
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
+/* galeria de fotos */
+
+#fotos h2 {
+    color: var(--rosa); 
+    font-family: var(--lobster-font);
+    font-size: 60px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.aulas {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.aulas iframe {
+    padding: 10px;
+}
+
 /* blog */
 
 #blog h2 {
@@ -577,4 +601,84 @@ main img {
 
 .mt-2 {
     margin-top: 2rem;
+}
+
+/* responsividade */
+
+@media screen and (max-width: 1088px) {
+    main img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    body {
+        background-size: cover;
+    }
+    .menu-hamb {
+        display: block;
+    }
+    .nav {
+        display: none;
+    }
+    main img {
+        width: 70%;
+    }
+    .apresentacao {
+        padding-bottom: 0;
+    } 
+    #sobre {
+        flex-direction: column-reverse;
+    }
+    .sobre-mim {
+        width: 80%;
+    }
+    #sobre img {
+        margin-top: 2rem;
+        width: 80%;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .aulas {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .apresentacao {
+        width: 90%;
+        text-align: center;
+        min-width: 0;
+    }
+    .apresentacao h1 {
+        font-size: 20px;
+    }
+    .apresentacao span, 
+    .apresentacao strong {
+        font-size: 35px;
+    }
+    .pacotes-h2 {
+        width: 80%;
+    }
+    .contato-card {
+        width: 90%;
+    }
+    .input input {
+        width: 100%;
+    }
+    .blog {
+        width: 90%;
+        min-width: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #depoimentos h2 {
+        font-size: 30px;
+    }
+    .depoimentos-h2 {
+        width: 80%;
+    }
 }
