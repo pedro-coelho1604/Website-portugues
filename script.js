@@ -13,16 +13,16 @@ var pacote = {
     },
     pctindi2: {
         titulo: 'Individual',
-        preco: 'R$ 220,00',
-        espec: 'quatro aula',
+        preco: 'R$ 140,00',
+        espec: 'quatro aulas',
         l1: 'Acompanhamento mais próximo.',
         l2: 'Facilidade maior de corrigir erros.',
         l3: 'Excelente escolha para quem se distrai com facilidade.',
     },
     pctindi3: {
         titulo: 'Individual',
-        preco: 'R$ 400,00',
-        espec: 'oito aula',
+        preco: 'R$ 250,00',
+        espec: 'oito aulas',
         l1: 'Acompanhamento mais próximo.',
         l2: 'Facilidade maior de corrigir erros.',
         l3: 'Excelente escolha para quem se distrai com facilidade.',
@@ -49,16 +49,16 @@ select.addEventListener('change', function(){
             },
             pctindi2: {
                 titulo: 'Individual',
-                preco: 'R$ 220,00',
-                espec: 'quatro aula',
+                preco: 'R$ 140,00',
+                espec: 'quatro aulas',
                 l1: 'Acompanhamento mais próximo.',
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
             },
             pctindi3: {
                 titulo: 'Individual',
-                preco: 'R$ 400,00',
-                espec: 'oito aula',
+                preco: 'R$ 250,00',
+                espec: 'oito aulas',
                 l1: 'Acompanhamento mais próximo.',
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
@@ -76,8 +76,89 @@ select.addEventListener('change', function(){
             },
             pctindi2: {
                 titulo: 'Individual',
+                preco: 'R$ 140,00',
+                espec: 'quatro aulas',
+                l1: 'Acompanhamento mais próximo.',
+                l2: 'Facilidade maior de corrigir erros.',
+                l3: 'Excelente escolha para quem se distrai com facilidade.',
+            },
+            pctindi3: {
+                titulo: 'Individual',
+                preco: 'R$ 250,00',
+                espec: 'oito aulas',
+                l1: 'Acompanhamento mais próximo.',
+                l2: 'Facilidade maior de corrigir erros.',
+                l3: 'Excelente escolha para quem se distrai com facilidade.',
+            }
+        }
+    } else if (selecionado == "ensmed") {
+        pacote = { 
+            pctindi1: {
+                titulo: 'Individual',
+                preco: 'R$ 50,00',
+                espec: 'uma aula',
+                l1: 'Acompanhamento mais próximo.',
+                l2: 'Facilidade maior de corrigir erros.',
+                l3: 'Excelente escolha para quem se distrai com facilidade.',
+            },
+            pctindi2: {
+                titulo: 'Individual',
+                preco: 'R$ 180,00',
+                espec: 'quatro aulas',
+                l1: 'Acompanhamento mais próximo.',
+                l2: 'Facilidade maior de corrigir erros.',
+                l3: 'Excelente escolha para quem se distrai com facilidade.',
+            },
+            pctindi3: {
+                titulo: 'Individual',
+                preco: 'R$ 330,00',
+                espec: 'oito aulas',
+                l1: 'Acompanhamento mais próximo.',
+                l2: 'Facilidade maior de corrigir erros.',
+                l3: 'Excelente escolha para quem se distrai com facilidade.',
+            }
+        }
+    } else if (selecionado == "vestib") {
+        pacote = { 
+            pctindi1: {
+                titulo: 'Individual',
+                preco: 'R$ 50,00',
+                espec: 'uma aula',
+                l1: 'Acompanhamento mais próximo.',
+                l2: 'Facilidade maior de corrigir erros.',
+                l3: 'Excelente escolha para quem se distrai com facilidade.',
+            },
+            pctindi2: {
+                titulo: 'Individual',
+                preco: 'R$ 180,00',
+                espec: 'quatro aulas',
+                l1: 'Acompanhamento mais próximo.',
+                l2: 'Facilidade maior de corrigir erros.',
+                l3: 'Excelente escolha para quem se distrai com facilidade.',
+            },
+            pctindi3: {
+                titulo: 'Individual',
+                preco: 'R$ 330,00',
+                espec: 'oito aulas',
+                l1: 'Acompanhamento mais próximo.',
+                l2: 'Facilidade maior de corrigir erros.',
+                l3: 'Excelente escolha para quem se distrai com facilidade.',
+            }
+        }
+    } else if (selecionado == "concur") {
+        pacote = { 
+            pctindi1: {
+                titulo: 'Individual',
+                preco: 'R$ 60,00',
+                espec: 'uma aula',
+                l1: 'Acompanhamento mais próximo.',
+                l2: 'Facilidade maior de corrigir erros.',
+                l3: 'Excelente escolha para quem se distrai com facilidade.',
+            },
+            pctindi2: {
+                titulo: 'Individual',
                 preco: 'R$ 220,00',
-                espec: 'quatro aula',
+                espec: 'quatro aulas',
                 l1: 'Acompanhamento mais próximo.',
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
@@ -85,7 +166,34 @@ select.addEventListener('change', function(){
             pctindi3: {
                 titulo: 'Individual',
                 preco: 'R$ 400,00',
-                espec: 'oito aula',
+                espec: 'oito aulas',
+                l1: 'Acompanhamento mais próximo.',
+                l2: 'Facilidade maior de corrigir erros.',
+                l3: 'Excelente escolha para quem se distrai com facilidade.',
+            }
+        }
+    } else if (selecionado == "outros") {
+        pacote = { 
+            pctindi1: {
+                titulo: 'Faculdade individual',
+                preco: 'R$ 80,00',
+                espec: 'uma aula',
+                l1: 'Acompanhamento mais próximo.',
+                l2: 'Facilidade maior de corrigir erros.',
+                l3: 'Excelente escolha para quem se distrai com facilidade.',
+            },
+            pctindi2: {
+                titulo: 'Faculdade individual',
+                preco: 'R$ 300,00',
+                espec: 'quatro aulas',
+                l1: 'Acompanhamento mais próximo.',
+                l2: 'Facilidade maior de corrigir erros.',
+                l3: 'Excelente escolha para quem se distrai com facilidade.',
+            },
+            pctindi3: {
+                titulo: 'Faculdade Individual',
+                preco: 'R$ 550,00',
+                espec: 'oito aulas',
                 l1: 'Acompanhamento mais próximo.',
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
@@ -99,7 +207,7 @@ function mostrarPacotes() {
     divPacotes.innerHTML = ''
     for (var pct in pacote) {
         if(pacote.hasOwnProperty(pct)) {
-            console.log(pacote[pct]);
+            // console.log(pacote[pct]);
             divPacotes.innerHTML += `
             <div class="card-pacote">
                 <div class="top_card-pacote">
