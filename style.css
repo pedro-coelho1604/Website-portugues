@@ -38,7 +38,7 @@ header {
     align-items: center;
     justify-content: space-between;
     min-height: 100px;
-    padding: 0 1.5rem;
+    padding: 0 2.5%;
 }
 
 .logo {
@@ -78,7 +78,7 @@ header li a:hover {
 
 /* dark mode button*/
 
-body.dark {
+/* body.dark {
     background: #000000;
 }
   
@@ -120,23 +120,27 @@ transform: translateX(24px);
 
 .fa-moon, .fa-sun {
 color: var(--azul-final-svg);
-}
+} */
 
 /* Main */
 
 main {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 2rem;
     padding: 2.5%;
 }
 
 .apresentacao {
     width: 55%;
+    min-width: 600px;
     color: var(--branco);
     font-family: var(--krona-font );
     padding-bottom: 10rem;
+    margin-right: auto;
 }
 
 .apresentacao h1 {
@@ -171,7 +175,6 @@ main img {
 
 #sobre img {
     width: 35%;
-    min-width: 200px;
     border-radius: 25px;
     box-shadow: 0 0 15px rgba(0, 0, 0, .2);
 }
@@ -201,7 +204,7 @@ main img {
 
 #servicos {
     background-color: var(--roxo-topo-svg);
-    padding: 2rem 0;
+    padding: 2rem 2.5%;
 }
 
 #servicos h2 {
@@ -220,6 +223,7 @@ main img {
 
 .cards-servicos {
     display: flex;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -257,7 +261,6 @@ main img {
 
 #precos-pacotes {
     text-align: center;
-    
     margin-top: 2em;
 }
 

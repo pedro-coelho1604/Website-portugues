@@ -1,4 +1,4 @@
-const chk = document.getElementById('chk')
+// const chk = document.getElementById('chk')
 const select = document.getElementById('pacotes')
 const divPacotes = document.querySelector('.pacotes')
 
@@ -54,9 +54,9 @@ var pacote = {
 }
 mostrarPacotes()
 
-chk.addEventListener('change', () => {
-  document.body.classList.toggle('dark')
-})
+// chk.addEventListener('change', () => {
+//   document.body.classList.toggle('dark')
+// })
 
 select.addEventListener('change', function(){
     var selecionado = select.value
