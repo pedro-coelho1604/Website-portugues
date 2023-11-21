@@ -558,6 +558,10 @@ main img {
     background-size: cover;
     padding: 210px 0px 30px 0px;
     min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo-footer {
@@ -595,6 +599,17 @@ main img {
     color: var(--branco);
     padding: 10px;
     font-size: 25px;
+}
+
+.politica {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.politica a {
+    color: white;
+    text-decoration: underline;
 }
 
 /* Utilitários */
