@@ -1,6 +1,6 @@
 const chk = document.getElementById('chk')
 const select = document.getElementById('pacotes')
-const divPacotes = document.getElementById('')
+const divPacotes = document.querySelector('.pacotes')
 
 var pacote = { 
     pctindi1: {
@@ -28,6 +28,7 @@ var pacote = {
         l3: 'Excelente escolha para quem se distrai com facilidade.',
     }
 }
+mostrarPacotes()
 
 chk.addEventListener('change', () => {
   document.body.classList.toggle('dark')
@@ -95,9 +96,25 @@ select.addEventListener('change', function(){
 })
 
 function mostrarPacotes() {
+    divPacotes.innerHTML = ''
     for (var pct in pacote) {
         if(pacote.hasOwnProperty(pct)) {
             console.log(pacote[pct]);
+            divPacotes.innerHTML += `
+            <div class="card-pacote">
+                <div class="top_card-pacote">
+                    <h4>${pacote[pct].titulo}</h4>
+                    <span class="preco">${pacote[pct].preco}</span>
+                    <span class="especificacao">${pacote[pct].espec}</span>
+                </div>
+                <ul class="lista_card-pacote">
+                    <li>${pacote[pct].l1}</li>
+                    <li>${pacote[pct].l2}</li>
+                    <li>${pacote[pct].l3}</li>
+                </ul>
+                <button type="button" class="button_card-pacote">Contrate agora!</button>
+            </div>
+            `
         }
     }
 }
