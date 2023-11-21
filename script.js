@@ -124,6 +124,14 @@ select.addEventListener('change', function(){
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
             },
+            pctgrup1: {
+                titulo: 'Grupo (2 a 4 Pessoas)',
+                preco: 'R$ 70,00',
+                espec: 'uma aula',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
+            },
             pctindi2: {
                 titulo: 'Individual',
                 preco: 'R$ 140,00',
@@ -132,6 +140,14 @@ select.addEventListener('change', function(){
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
             },
+            pctgrup2: {
+                titulo: 'Grupo (2 a 4 Pessoas)',
+                preco: 'R$ 250,00',
+                espec: 'quatro aulas',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
+            },
             pctindi3: {
                 titulo: 'Individual',
                 preco: 'R$ 250,00',
@@ -139,6 +155,14 @@ select.addEventListener('change', function(){
                 l1: 'Acompanhamento mais próximo.',
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
+            },
+            pctgrup3: {
+                titulo: 'Grupo (2 a 4 Pessoas)',
+                preco: 'R$ 450,00',
+                espec: 'oito aulas',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
             }
         }
     } else if (selecionado == "ensmed") {
@@ -151,6 +175,14 @@ select.addEventListener('change', function(){
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
             },
+            pctgrup1: {
+                titulo: 'Grupo (2 a 4 Pessoas)',
+                preco: 'R$ 80,00',
+                espec: 'uma aula',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
+            },
             pctindi2: {
                 titulo: 'Individual',
                 preco: 'R$ 180,00',
@@ -159,6 +191,14 @@ select.addEventListener('change', function(){
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
             },
+            pctgrup2: {
+                titulo: 'Grupo (2 a 4 Pessoas)',
+                preco: 'R$ 330,00',
+                espec: 'quatro aulas',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
+            },
             pctindi3: {
                 titulo: 'Individual',
                 preco: 'R$ 330,00',
@@ -166,6 +206,14 @@ select.addEventListener('change', function(){
                 l1: 'Acompanhamento mais próximo.',
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
+            },
+            pctgrup3: {
+                titulo: 'Grupo (2 a 4 Pessoas)',
+                preco: 'R$ 640,00',
+                espec: 'oito aulas',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
             }
         }
     } else if (selecionado == "vestib") {
@@ -178,6 +226,14 @@ select.addEventListener('change', function(){
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
             },
+            pctgrup1: {
+                titulo: 'Grupo (2 a 4 Pessoas)',
+                preco: 'R$ 80,00',
+                espec: 'uma aula',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
+            },
             pctindi2: {
                 titulo: 'Individual',
                 preco: 'R$ 180,00',
@@ -186,6 +242,14 @@ select.addEventListener('change', function(){
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
             },
+            pctgrup2: {
+                titulo: 'Grupo (2 a 4 Pessoas)',
+                preco: 'R$ 330,00',
+                espec: 'quatro aulas',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
+            },
             pctindi3: {
                 titulo: 'Individual',
                 preco: 'R$ 330,00',
@@ -193,6 +257,14 @@ select.addEventListener('change', function(){
                 l1: 'Acompanhamento mais próximo.',
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
+            },
+            pctgrup3: {
+                titulo: 'Grupo (2 a 4 Pessoas)',
+                preco: 'R$ 640,00',
+                espec: 'oito aulas',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
             }
         }
     } else if (selecionado == "concur") {
@@ -205,6 +277,14 @@ select.addEventListener('change', function(){
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
             },
+            pctgrup1: {
+                titulo: 'Grupo (2 a 4 Pessoas)',
+                preco: 'R$ 100,00',
+                espec: 'uma aula',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
+            },
             pctindi2: {
                 titulo: 'Individual',
                 preco: 'R$ 220,00',
@@ -213,6 +293,14 @@ select.addEventListener('change', function(){
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
             },
+            pctgrup2: {
+                titulo: 'Grupo (2 a 4 Pessoas)',
+                preco: 'R$ 400,00',
+                espec: 'quatro aulas',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
+            },
             pctindi3: {
                 titulo: 'Individual',
                 preco: 'R$ 400,00',
@@ -220,6 +308,14 @@ select.addEventListener('change', function(){
                 l1: 'Acompanhamento mais próximo.',
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
+            },
+            pctgrup3: {
+                titulo: 'Grupo (2 a 4 Pessoas)',
+                preco: 'R$ 760,00',
+                espec: 'oito aulas',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
             }
         }
     } else if (selecionado == "outros") {
@@ -232,6 +328,14 @@ select.addEventListener('change', function(){
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
             },
+            pctgrup1: {
+                titulo: 'Faculdade (2 a 4 Pessoas)',
+                preco: 'R$ 140,00',
+                espec: 'uma aula',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
+            },
             pctindi2: {
                 titulo: 'Faculdade individual',
                 preco: 'R$ 300,00',
@@ -240,6 +344,14 @@ select.addEventListener('change', function(){
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
             },
+            pctgrup2: {
+                titulo: 'Faculdade (2 a 4 Pessoas)',
+                preco: 'R$ 580,00',
+                espec: 'quatro aulas',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
+            },
             pctindi3: {
                 titulo: 'Faculdade Individual',
                 preco: 'R$ 550,00',
@@ -247,6 +359,14 @@ select.addEventListener('change', function(){
                 l1: 'Acompanhamento mais próximo.',
                 l2: 'Facilidade maior de corrigir erros.',
                 l3: 'Excelente escolha para quem se distrai com facilidade.',
+            },
+            pctgrup3: {
+                titulo: 'Faculdade (2 a 4 Pessoas)',
+                preco: 'R$ 1050,00',
+                espec: 'oito aulas',
+                l1: 'Troca de informações sobre a prática dos exercícios.',
+                l2: 'Excelente custo benefício.',
+                l3: 'Trabalha mais a socialização.',
             }
         }
     }
