@@ -618,6 +618,42 @@ main img {
     margin-top: 2rem;
 }
 
+/* Página do Blog */
+.texto-do-blog {
+    width: 900px;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: var(--inter-font);
+}
+
+.texto-do-blog li, .texto-do-blog h3 {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.texto-do-blog p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.autora-data {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.texto-do-blog img {
+    width: 250px;
+    max-width: 80%;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    margin: 1rem 0;
+}
+
 /* responsividade */
 
 @media screen and (max-width: 1088px) {
