@@ -1,6 +1,8 @@
 // const chk = document.getElementById('chk')
 const select = document.getElementById('pacotes')
 const divPacotes = document.querySelector('.pacotes')
+const menuHamb = document.querySelector('.menu-hamb')
+const menuNav = document.querySelector('.nav')
 
 var pacote = { 
     pctindi1: {
@@ -274,3 +276,8 @@ function mostrarPacotes() {
         }
     }
 }
+
+menuHamb.addEventListener('click', () => {
+    menuNav.classList.toggle('nav')
+    menuNav.classList.toggle('nav-mobile')
+})

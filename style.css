@@ -621,6 +621,27 @@ main img {
     .nav {
         display: none;
     }
+    .nav-mobile {
+        position: absolute;
+        display: block;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, .14);
+        border-radius: 25px;
+        top: 6rem;
+        right: 0;
+        padding: 2rem;
+    }
+    .nav-mobile ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    .nav-mobile ul li a {
+        font-size: 32px;
+    }
     main img {
         width: 70%;
     }
